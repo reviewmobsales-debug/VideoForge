@@ -74,3 +74,19 @@ export interface AudioAnalysisResult {
   waveform: number[];
   duration: number;
 }
+
+export type AutoCutMode = "smart_montage" | "bass_drop_only" | "every_beat" | "energy_gates";
+
+export interface CutPoint {
+  time: number;
+  confidence: number;
+  type: "beat" | "drop" | "onset" | "valley" | "energy_rise";
+}
+
+export interface TransitionPreset {
+  id: string;
+  name: string;
+  css: string; // raw CSS transform/filter for preview
+  duration: number; // seconds
+  description: string;
+}

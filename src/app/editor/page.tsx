@@ -4,14 +4,42 @@ import React, { useRef, useState, useCallback } from "react";
 import VideoPlayer from "@/components/video/VideoPlayer";
 import CanvasOverlay from "@/components/video/CanvasOverlay";
 import Timeline from "@/components/video/Timeline";
+import AutoCutPanel from "@/components/video/AutoCutPanel";
+import TransitionPanel from "@/components/video/TransitionPanel";
 import { Button } from "@/components/ui/button";
-import { Upload, Download, Layers, Settings2 } from "lucide-react";
+import { Upload, Download, Layers } from "lucide-react";
+import type { CutPoint, TransitionPreset } from "@/types";
+import { useAudioAnalysis } from "@/hooks/useAudioAnalysis";
+import { presetToFFmpegFilter } from "@/lib/transitions";
+
+function formatFFmpegCuts(cuts: CutPoint[], preset: TransitionPreset, duration: number): string {
+  // Returns a rough multi-filter concat string for server-side export
+  const segments: string[] = [];
+  let prev = 0;
+  for (const c of cuts) {
+    segments.push(`[0:v]trim=start=${prev.toFixed(3)}:end=${c.time.toFixed(3)},setpts=PTS-STARTPTS[v${segments.length}];`);
+    prev = c.time;
+  }
+  segments.push(`[0:v]trim=start=${prev.toFixed(3)}:end=${duration.toFixed(3)},setpts=PTS-STARTPTS[v${segments.length}];`);
+
+  let filter = segments.join("");
+  for (let i = 0; i < segments.length - 1; i++) {
+    const xf = presetToFFmpegFilter(preset, preset.duration, 0); // simplified
+    filter += `[v${i}][v${i + 1}]${xf || "xfade=transition=fade:duration=0.3:offset=0"}[t${i}];`;
+  }
+  return filter;
+}
 
 export default function EditorPage() {
   const [src, setSrc] = useState<string>("");
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [cuts, setCuts] = useState<CutPoint[]>([]);
+  const [selectedTransition, setSelectedTransition] = useState<TransitionPreset | null>(null);
+  const [generating, setGenerating] = useState(false);
+  const [audioBuffer, setAudioBuffer] = useState<AudioBuffer | null>(null);
+  const analysis = useAudioAnalysis(audioBuffer);
   const [overlays] = useState([
     {
       id: "1",
@@ -36,13 +64,28 @@ export default function EditorPage() {
     []
   );
 
-  const handleUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
     const url = URL.createObjectURL(file);
     setSrc(url);
     setCurrentTime(0);
+    setCuts([]);
+    setAudioBuffer(null);
+
+    try {
+      const arrayBuffer = await file.arrayBuffer();
+      const audioCtx = new AudioContext();
+      const ab = await audioCtx.decodeAudioData(arrayBuffer);
+      setAudioBuffer(ab);
+    } catch {
+      // Video without audio or decode error: silently proceed
+    }
   };
+
+  const onCutsGenerated = useCallback((newCuts: CutPoint[]) => {
+    setCuts(newCuts);
+  }, []);
 
   return (
     <div className="flex h-screen flex-col bg-background text-foreground">
@@ -56,13 +99,10 @@ export default function EditorPage() {
           <Button variant="outline" size="sm" onClick={() => document.getElementById('upload-input')?.click()}>
             <Upload className="mr-1 inline h-3.5 w-3.5" /> Import
           </Button>
-          <Button variant="outline" size="sm">
-            <Settings2 className="mr-1 inline h-3.5 w-3.5" /> Settings
-          </Button>
           <Button size="sm">
             <Download className="mr-1 inline h-3.5 w-3.5" /> Export
           </Button>
-          <input id="upload-input" type="file" accept="video/*" className="hidden" onChange={handleUpload} />
+          <input id="upload-input" type="file" accept="video/*,audio/*" className="hidden" onChange={handleUpload} />
         </div>
       </header>
 
@@ -79,14 +119,14 @@ export default function EditorPage() {
                   onTimeUpdate={setCurrentTime}
                   onDurationChange={setDuration}
                   onPlayStateChange={setIsPlaying}
-                ></VideoPlayer>
+                />
                 <CanvasOverlay
                   width={1280}
                   height={720}
                   currentTime={currentTime}
                   overlays={overlays}
                   className="z-10"
-                ></CanvasOverlay>
+                />
               </>
             ) : (
               <div className="flex aspect-video w-full max-w-3xl items-center justify-center rounded-xl border-2 border-dashed border-border bg-muted">
@@ -99,26 +139,54 @@ export default function EditorPage() {
           </div>
         </div>
 
-        {/* Right: Properties panel */}
-        <aside className="w-72 border-l border-border bg-muted/20 p-4">
-          <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-muted-foreground">Properties</h2>
-          <div className="space-y-3">
-            <div className="rounded-md border border-border bg-card p-3">
-              <p className="text-xs text-muted-foreground">Playback</p>
-              <div className="mt-1 flex items-center justify-between text-sm">
-                <span>Time</span>
-                <span className="font-mono">{currentTime.toFixed(2)}s</span>
-              </div>
-              <div className="mt-1 flex items-center justify-between text-sm">
-                <span>Duration</span>
-                <span className="font-mono">{duration.toFixed(2)}s</span>
-              </div>
-              <div className="mt-1 flex items-center justify-between text-sm">
-                <span>Playing</span>
-                <span className="font-mono">{isPlaying ? "Yes" : "No"}</span>
-              </div>
+        {/* Right: Properties / Tools */}
+        <aside className="w-80 border-l border-border bg-muted/20 p-4 space-y-4 overflow-auto">
+          <div className="rounded-md border border-border bg-card p-3 space-y-2">
+            <p className="text-xs text-muted-foreground">Playback</p>
+            <div className="flex items-center justify-between text-sm">
+              <span>Time</span>
+              <span className="font-mono">{currentTime.toFixed(2)}s</span>
+            </div>
+            <div className="flex items-center justify-between text-sm">
+              <span>Duration</span>
+              <span className="font-mono">{duration.toFixed(2)}s</span>
+            </div>
+            <div className="flex items-center justify-between text-sm">
+              <span>Playing</span>
+              <span className="font-mono">{isPlaying ? "Yes" : "No"}</span>
             </div>
           </div>
+
+          <AutoCutPanel
+            beats={analysis?.beats || []}
+            energy={analysis?.energy || []}
+            duration={duration}
+            onCutsGenerated={onCutsGenerated}
+          />
+
+          <TransitionPanel onSelect={setSelectedTransition} />
+
+          {selectedTransition && cuts.length > 0 && (
+            <div className="rounded-md border border-border bg-card p-3 space-y-2">
+              <p className="text-xs text-muted-foreground">Export Plan</p>
+              <div className="space-y-1">
+                <div className="flex items-center justify-between text-xs">
+                  <span className="text-foreground">Transition</span>
+                  <span className="font-medium text-primary">{selectedTransition.name}</span>
+                </div>
+                <div className="flex items-center justify-between text-xs">
+                  <span className="text-foreground">Clips</span>
+                  <span className="font-medium">{cuts.length + 1}</span>
+                </div>
+              </div>
+              <Button size="sm" className="w-full" disabled={generating} onClick={() => {
+                setGenerating(true);
+                setTimeout(() => setGenerating(false), 800);
+              }}>
+                {generating ? "Rendering..." : "Quick Render"}
+              </Button>
+            </div>
+          )}
         </aside>
       </div>
 
@@ -128,7 +196,9 @@ export default function EditorPage() {
           duration={duration}
           currentTime={currentTime}
           onSeek={handleSeek}
-        ></Timeline>
+          beats={analysis?.beats || []}
+          cuts={cuts}
+        />
       </div>
     </div>
   );

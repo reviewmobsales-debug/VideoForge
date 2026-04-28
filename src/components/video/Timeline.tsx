@@ -9,9 +9,11 @@ interface TimelineProps {
   currentTime: number;
   onSeek: (time: number) => void;
   className?: string;
+  beats?: Array<{ time: number; confidence: number }>;
+  cuts?: Array<{ time: number; confidence: number; type: string }>;
 }
 
-export default function Timeline({ duration, currentTime, onSeek, className }: TimelineProps) {
+export default function Timeline({ duration, currentTime, onSeek, className, beats = [], cuts = [] }: TimelineProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
 
@@ -64,6 +66,39 @@ export default function Timeline({ duration, currentTime, onSeek, className }: T
         {formatDuration(duration)}
       </div>
 
+      {/* Beat markers */}
+      {beats.map((b, i) => {
+        const left = duration > 0 ? (b.time / duration) * 100 : 0;
+        const alpha = 0.3 + b.confidence * 0.7;
+        return (
+          <div
+            key={`beat-${i}`}
+            className="absolute top-0 bottom-0 w-0.5 bg-yellow-500/60"
+            style={{ left: `${left}%`, opacity: alpha }}
+            title={`Beat @ ${b.time.toFixed(2)}s`}
+          />
+        );
+      })}
+
+      {/* Cut markers */}
+      {cuts.map((c, i) => {
+        const left = duration > 0 ? (c.time / duration) * 100 : 0;
+        const color = cutColor(c.type);
+        return (
+          <div
+            key={`cut-${i}`}
+            className="absolute top-0 bottom-0 flex flex-col items-center"
+            style={{ left: `${left}%` }}
+          >
+            <div className="h-full w-0.5" style={{ backgroundColor: color }} />
+            <div
+              className="absolute -top-1 -translate-x-1/2 rotate-45 h-2 w-2 border-r-2 border-b-2"
+              style={{ borderColor: color, top: '0.25rem' }}
+            />
+          </div>
+        );
+      })}
+
       {/* Icons for tracks */}
       <div className="absolute top-1 left-2 flex items-center gap-1">
         <Scissors className="h-3 w-3 text-muted-foreground" />
@@ -71,6 +106,17 @@ export default function Timeline({ duration, currentTime, onSeek, className }: T
       </div>
     </div>
   );
+}
+
+function cutColor(type: string): string {
+  switch (type) {
+    case "beat": return "#eab308";
+    case "drop": return "#ef4444";
+    case "onset": return "#3b82f6";
+    case "valley": return "#22c55e";
+    case "energy_rise": return "#a855f7";
+    default: return "#9ca3af";
+  }
 }
 
 function formatDuration(seconds: number): string {
