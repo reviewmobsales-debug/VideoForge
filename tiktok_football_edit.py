@@ -241,12 +241,14 @@ def git_push(video_path: Path, meta: dict):
     repo = GIT_REPO
     demo_dir = repo / "demo"
     demo_dir.mkdir(parents=True, exist_ok=True)
-    # Copy to demo as output.mp4
     dest = demo_dir / "output.mp4"
-    if dest.exists():
-        dest.unlink()
-    # Use cp instead of os.replace to keep source
-    subprocess.run(["cp", str(video_path), str(dest)], check=True)
+    # Avoid cp if source and dest are the same path
+    if Path(video_path).resolve() != dest.resolve():
+        if dest.exists():
+            dest.unlink()
+        subprocess.run(["cp", str(video_path), str(dest)], check=True)
+    else:
+        print("[deploy] source and dest are identical, keeping existing file")
 
     # Write metadata JSON
     meta_path = demo_dir / "latest_meta.json"
@@ -368,6 +370,13 @@ def run_pipeline(no_push=False):
         if Path(final_path).resolve() != OUTPATH.resolve():
             subprocess.run(["cp", str(final_path), str(OUTPATH)], check=True)
         print(f"[saved] {OUTPATH}")
+
+        # 6b) Also copy to public/demo for Next.js static export
+        public_demo = BASEDIR / "public" / "demo"
+        public_demo.mkdir(parents=True, exist_ok=True)
+        public_dest = public_demo / "output.mp4"
+        subprocess.run(["cp", str(OUTPATH), str(public_dest)], check=True)
+        print(f"[saved] {public_dest}")
 
         # 7) Git push
         if not no_push:
