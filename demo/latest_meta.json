@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-29T21:32:33.648001+00:00",
+  "generated_at": "2026-04-29T22:41:05.093858+00:00",
   "theme": {
-    "title": "FUTURE LEGEND",
-    "subtitle": "BORN READY",
+    "title": "HAT TRICK",
+    "subtitle": "ICE COLD",
     "colors": [
-      "#007AFF",
+      "#64D2FF",
       "#FFFFFF"
     ]
   },
-  "transition": "hblur",
+  "transition": "wipeleft",
   "source_video": "football_01.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_future_legend.jpg",
+  "thumbnail": "output/thumbnails/thumb_hat_trick.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
     "duration_sec": 14.2,
-    "file_size_bytes": 4436411,
-    "bitrate": 2499386
+    "file_size_bytes": 4753093,
+    "bitrate": 2677798
   }
 }
