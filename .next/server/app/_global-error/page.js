@@ -1,0 +1,10 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0m57p7f._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_0ul73e7._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_08-p44j.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0hzi-1_._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__09z7o2x._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_0lgvd_..js")
+R.c("server/chunks/ssr/VideoForge2__next-internal_server_app__global-error_page_actions_13m4myy.js")
+R.m(56314)
+module.exports=R.m(56314).exports
