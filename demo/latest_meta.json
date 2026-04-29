@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-29T16:29:26.995697+00:00",
+  "generated_at": "2026-04-29T16:40:20.732658+00:00",
   "theme": {
-    "title": "BARCA DNA",
-    "subtitle": "LA MASIA",
+    "title": "TOP CORNER",
+    "subtitle": "PERFECTION",
     "colors": [
-      "#AF52DE",
-      "#FFD60A"
+      "#FF2D55",
+      "#FFFFFF"
     ]
   },
   "transition": "zoom-crossfade",
@@ -16,7 +16,7 @@
     "width": 1080,
     "height": 1920,
     "duration_sec": 14.23,
-    "file_size_bytes": 5285123,
-    "bitrate": 2970561
+    "file_size_bytes": 5298640,
+    "bitrate": 2978158
   }
 }
