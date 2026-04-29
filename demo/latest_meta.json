@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-29T16:26:08.667669+00:00",
+  "generated_at": "2026-04-29T16:29:26.995697+00:00",
   "theme": {
-    "title": "HAT TRICK",
-    "subtitle": "ICE COLD",
+    "title": "BARCA DNA",
+    "subtitle": "LA MASIA",
     "colors": [
-      "#64D2FF",
-      "#FFFFFF"
+      "#AF52DE",
+      "#FFD60A"
     ]
   },
-  "transition": "motion-blur",
+  "transition": "zoom-crossfade",
   "source_video": "football_01.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
@@ -16,7 +16,7 @@
     "width": 1080,
     "height": 1920,
     "duration_sec": 14.23,
-    "file_size_bytes": 5021891,
-    "bitrate": 2822608
+    "file_size_bytes": 5285123,
+    "bitrate": 2970561
   }
 }
