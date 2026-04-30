@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-30T15:40:21.276133+00:00",
+  "generated_at": "2026-04-30T17:08:45.430264+00:00",
   "theme": {
-    "title": "GOAL MACHINE",
-    "subtitle": "UNSTOPPABLE",
+    "title": "FUTURE LEGEND",
+    "subtitle": "BORN READY",
     "colors": [
-      "#FF3B30",
+      "#007AFF",
       "#FFFFFF"
     ]
   },
-  "transition": "smoothleft",
-  "source_video": "football_goal_mixkit.mp4",
+  "transition": "wipeleft",
+  "source_video": "football_01.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_goal_machine.jpg",
+  "thumbnail": "output/thumbnails/thumb_future_legend.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
-    "duration_sec": 5.23,
-    "file_size_bytes": 1594062,
-    "bitrate": 2436782
+    "duration_sec": 14.2,
+    "file_size_bytes": 4790943,
+    "bitrate": 2699122
   }
 }
