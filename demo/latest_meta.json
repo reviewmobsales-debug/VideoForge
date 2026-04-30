@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-30T05:27:31.035324+00:00",
+  "generated_at": "2026-04-30T06:52:37.759978+00:00",
   "theme": {
-    "title": "SKILL SHOW",
-    "subtitle": "NEXT LEVEL",
+    "title": "DRIBBLE KING",
+    "subtitle": "NO LOOK",
     "colors": [
-      "#FF9500",
+      "#34C759",
       "#FFFFFF"
     ]
   },
-  "transition": "dissolve",
-  "source_video": "football_goal_mixkit.mp4",
+  "transition": "fade",
+  "source_video": "football_01.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_skill_show.jpg",
+  "thumbnail": "output/thumbnails/thumb_dribble_king.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
-    "duration_sec": 5.23,
-    "file_size_bytes": 3403751,
-    "bitrate": 5203186
+    "duration_sec": 14.53,
+    "file_size_bytes": 5204403,
+    "bitrate": 2864809
   }
 }
