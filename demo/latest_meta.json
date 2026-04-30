@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-30T22:12:40.101903+00:00",
+  "generated_at": "2026-04-30T23:25:29.571342+00:00",
   "theme": {
-    "title": "FUTURE LEGEND",
-    "subtitle": "BORN READY",
+    "title": "SKILL SHOW",
+    "subtitle": "NEXT LEVEL",
     "colors": [
-      "#007AFF",
+      "#FF9500",
       "#FFFFFF"
     ]
   },
-  "transition": "circlecrop",
-  "source_video": "football_01.mp4",
+  "transition": "fade",
+  "source_video": "football_dribble_mixkit.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_future_legend.jpg",
+  "thumbnail": "output/thumbnails/thumb_skill_show.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
-    "duration_sec": 13.83,
-    "file_size_bytes": 3997787,
-    "bitrate": 2312027
+    "duration_sec": 5.77,
+    "file_size_bytes": 1289269,
+    "bitrate": 1788581
   }
 }
