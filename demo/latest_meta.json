@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T17:08:45.430264+00:00",
+  "generated_at": "2026-04-30T18:33:01.734921+00:00",
   "theme": {
     "title": "FUTURE LEGEND",
     "subtitle": "BORN READY",
@@ -8,7 +8,7 @@
       "#FFFFFF"
     ]
   },
-  "transition": "wipeleft",
+  "transition": "fade",
   "source_video": "football_01.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
@@ -17,8 +17,8 @@
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
-    "duration_sec": 14.2,
-    "file_size_bytes": 4790943,
-    "bitrate": 2699122
+    "duration_sec": 14.53,
+    "file_size_bytes": 5220102,
+    "bitrate": 2873514
   }
 }
