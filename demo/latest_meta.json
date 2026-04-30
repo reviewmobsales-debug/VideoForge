@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-30T06:52:37.759978+00:00",
+  "generated_at": "2026-04-30T08:00:22.617041+00:00",
   "theme": {
-    "title": "DRIBBLE KING",
-    "subtitle": "NO LOOK",
+    "title": "HAT TRICK",
+    "subtitle": "ICE COLD",
     "colors": [
-      "#34C759",
+      "#64D2FF",
       "#FFFFFF"
     ]
   },
-  "transition": "fade",
+  "transition": "pixelize",
   "source_video": "football_01.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_dribble_king.jpg",
+  "thumbnail": "output/thumbnails/thumb_hat_trick.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
     "duration_sec": 14.53,
-    "file_size_bytes": 5204403,
-    "bitrate": 2864809
+    "file_size_bytes": 5014034,
+    "bitrate": 2760080
   }
 }
