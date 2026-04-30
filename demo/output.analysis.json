@@ -1,0 +1,221 @@
+{
+  "source": "/Users/openclawmaskin/VideoForge/demo/output.mp4",
+  "duration_seconds": 14.2,
+  "granularity_fps": 1.0,
+  "beat_count": 19,
+  "transcript_segments": 0,
+  "moments": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "text": "",
+      "features": {
+        "energy": 0.111,
+        "beat_proximity": 0.32,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.119
+    },
+    {
+      "start": 1.0,
+      "end": 2.0,
+      "text": "",
+      "features": {
+        "energy": 0.057,
+        "beat_proximity": 0.864,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.236
+    },
+    {
+      "start": 2.0,
+      "end": 3.0,
+      "text": "",
+      "features": {
+        "energy": 0.068,
+        "beat_proximity": 0.48,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.144
+    },
+    {
+      "start": 3.0,
+      "end": 4.0,
+      "text": "",
+      "features": {
+        "energy": 0.085,
+        "beat_proximity": 0.768,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.222
+    },
+    {
+      "start": 4.0,
+      "end": 5.0,
+      "text": "",
+      "features": {
+        "energy": 0.098,
+        "beat_proximity": 0.64,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.194
+    },
+    {
+      "start": 5.0,
+      "end": 6.0,
+      "text": "",
+      "features": {
+        "energy": 0.096,
+        "beat_proximity": 0.608,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.186
+    },
+    {
+      "start": 6.0,
+      "end": 7.0,
+      "text": "",
+      "features": {
+        "energy": 0.094,
+        "beat_proximity": 0.8,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.233
+    },
+    {
+      "start": 7.0,
+      "end": 8.0,
+      "text": "",
+      "features": {
+        "energy": 0.089,
+        "beat_proximity": 0.208,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.083
+    },
+    {
+      "start": 8.0,
+      "end": 9.0,
+      "text": "",
+      "features": {
+        "energy": 0.101,
+        "beat_proximity": 0.592,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.183
+    },
+    {
+      "start": 9.0,
+      "end": 10.0,
+      "text": "",
+      "features": {
+        "energy": 0.08,
+        "beat_proximity": 0.752,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.216
+    },
+    {
+      "start": 10.0,
+      "end": 11.0,
+      "text": "",
+      "features": {
+        "energy": 0.084,
+        "beat_proximity": 0.432,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.137
+    },
+    {
+      "start": 11.0,
+      "end": 12.0,
+      "text": "",
+      "features": {
+        "energy": 0.127,
+        "beat_proximity": 0.912,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.272
+    },
+    {
+      "start": 12.0,
+      "end": 13.0,
+      "text": "",
+      "features": {
+        "energy": 0.085,
+        "beat_proximity": 0.32,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.11
+    },
+    {
+      "start": 13.0,
+      "end": 14.0,
+      "text": "",
+      "features": {
+        "energy": 0.11,
+        "beat_proximity": 0.0,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.039
+    },
+    {
+      "start": 14.0,
+      "end": 14.2,
+      "text": "",
+      "features": {
+        "energy": 0.087,
+        "beat_proximity": 0.0,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.031
+    }
+  ],
+  "top_moments": [
+    {
+      "start": 11.0,
+      "end": 12.0,
+      "viral_score": 0.272,
+      "text": ""
+    },
+    {
+      "start": 1.0,
+      "end": 2.0,
+      "viral_score": 0.236,
+      "text": ""
+    },
+    {
+      "start": 6.0,
+      "end": 7.0,
+      "viral_score": 0.233,
+      "text": ""
+    },
+    {
+      "start": 3.0,
+      "end": 4.0,
+      "viral_score": 0.222,
+      "text": ""
+    },
+    {
+      "start": 9.0,
+      "end": 10.0,
+      "viral_score": 0.216,
+      "text": ""
+    }
+  ]
+}

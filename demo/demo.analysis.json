@@ -1,0 +1,101 @@
+{
+  "source": "/Users/openclawmaskin/VideoForge/demo/demo.mp4",
+  "duration_seconds": 5.0,
+  "granularity_fps": 1.0,
+  "beat_count": 0,
+  "transcript_segments": 0,
+  "moments": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "text": "",
+      "features": {
+        "energy": 0.0,
+        "beat_proximity": 0.0,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.0
+    },
+    {
+      "start": 1.0,
+      "end": 2.0,
+      "text": "",
+      "features": {
+        "energy": 0.0,
+        "beat_proximity": 0.0,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.0
+    },
+    {
+      "start": 2.0,
+      "end": 3.0,
+      "text": "",
+      "features": {
+        "energy": 0.0,
+        "beat_proximity": 0.0,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.0
+    },
+    {
+      "start": 3.0,
+      "end": 4.0,
+      "text": "",
+      "features": {
+        "energy": 0.0,
+        "beat_proximity": 0.0,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.0
+    },
+    {
+      "start": 4.0,
+      "end": 5.0,
+      "text": "",
+      "features": {
+        "energy": 0.0,
+        "beat_proximity": 0.0,
+        "keyword_density": 0.0,
+        "pacing": 0.0
+      },
+      "viral_score": 0.0
+    }
+  ],
+  "top_moments": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "viral_score": 0.0,
+      "text": ""
+    },
+    {
+      "start": 1.0,
+      "end": 2.0,
+      "viral_score": 0.0,
+      "text": ""
+    },
+    {
+      "start": 2.0,
+      "end": 3.0,
+      "viral_score": 0.0,
+      "text": ""
+    },
+    {
+      "start": 3.0,
+      "end": 4.0,
+      "viral_score": 0.0,
+      "text": ""
+    },
+    {
+      "start": 4.0,
+      "end": 5.0,
+      "viral_score": 0.0,
+      "text": ""
+    }
+  ]
+}
