@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-05-01T11:02:00Z",
+  "agent": "codex_coder",
+  "platform": "codex-cli",
+  "hermes_connected": true,
+  "db_path": "/Users/openclawmaskin/.hermes/shared_memory.db",
+  "db_exists": true,
+  "stats": {
+    "memory_entries": 264,
+    "tasks": 38,
+    "conversations": 2,
+    "agents": 8
+  },
+  "agent_state": {
+    "agent_id": "codex_coder",
+    "name": "Codex Coder",
+    "role": "AI Coding Agent",
+    "status": "working",
+    "current_task": "videoforge-connection-check",
+    "platform": "telegram",
+    "profile": "ollama-launch"
+  },
+  "other_agents": [
+    {"agent_id": "videoeditor", "status": "ACTIVE", "task": "dobrik-campaign-apr30"},
+    {"agent_id": "coder", "status": "idle", "task": ""},
+    {"agent_id": "researcher", "status": "idle", "task": ""},
+    {"agent_id": "orchestrator", "status": "idle", "task": ""},
+    {"agent_id": "obsidian_bridge", "status": "idle", "task": "bridge_sync"},
+    {"agent_id": "daedalus", "status": "idle", "task": ""},
+    {"agent_id": "icarus", "status": "idle", "task": ""}
+  ],
+  "memories_synced": true,
+  "memory_files": [
+    "/Users/openclawmaskin/.hermes/memories/MEMORY.md",
+    "/Users/openclawmaskin/.hermes/memories/USER.md"
+  ]
+}
