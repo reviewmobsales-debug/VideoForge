@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-01T05:59:54.750180+00:00",
+  "generated_at": "2026-05-01T07:06:26.038633+00:00",
   "theme": {
-    "title": "TOP CORNER",
-    "subtitle": "PERFECTION",
+    "title": "HAT TRICK",
+    "subtitle": "ICE COLD",
     "colors": [
-      "#FF2D55",
+      "#64D2FF",
       "#FFFFFF"
     ]
   },
-  "transition": "slideright",
+  "transition": "smoothleft",
   "source_video": "football_goal_mixkit.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_top_corner.jpg",
+  "thumbnail": "output/thumbnails/thumb_hat_trick.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
     "duration_sec": 5.23,
-    "file_size_bytes": 1561260,
-    "bitrate": 2386639
+    "file_size_bytes": 1591728,
+    "bitrate": 2433214
   }
 }
