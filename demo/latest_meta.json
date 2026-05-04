@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-04T16:54:13.957760+00:00",
+  "generated_at": "2026-05-04T17:55:38.995585+00:00",
   "theme": {
-    "title": "GOAL MACHINE",
-    "subtitle": "UNSTOPPABLE",
+    "title": "BARCA DNA",
+    "subtitle": "LA MASIA",
     "colors": [
-      "#FF3B30",
-      "#FFFFFF"
+      "#AF52DE",
+      "#FFD60A"
     ]
   },
-  "transition": "diagtl",
-  "source_video": "football_goal_mixkit.mp4",
+  "transition": "circlecrop",
+  "source_video": "football_dribble_mixkit.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_goal_machine.jpg",
+  "thumbnail": "output/thumbnails/thumb_barca_dna.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
-    "duration_sec": 5.23,
-    "file_size_bytes": 1577020,
-    "bitrate": 2410731
+    "duration_sec": 5.27,
+    "file_size_bytes": 1147565,
+    "bitrate": 1743136
   }
 }
