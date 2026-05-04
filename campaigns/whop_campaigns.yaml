@@ -1,0 +1,104 @@
+# 10 Aktive Whop Kampanjer (basert på screenshot-data + research)
+# Kilde: Brukerens Whop screenshot + Content Rewards feed + TikTok affiliate-trender
+
+campaigns:
+  - id: 01
+    name: "killdozer Clipping"
+    handle: "@contentrewardsbot"
+    cpm: "$1 per 1,000 Views"
+    budget: "$2,000"
+    platforms: [TikTok, YouTube, Instagram]
+    niche: "Gaming / Edgy Content"
+    hook: "Make $ editing gaming clips"
+    image_prompt: "Dark moody background with bold white text CLIP FOR KILLDOZER, JOIN NOW button"
+    video_style: "Glitch Reveal"
+        
+  - id: 02
+    name: "Cynthia Jade Fanpages"
+    handle: "@valorrajveer"
+    cpm: "$2 per 1,000 Views"
+    budget: "~$1,500 (est.)"
+    platforms: [TikTok, Instagram]
+    niche: "Creator Economy / Fan Content"
+    hook: "Run official fan pages for top creators"
+    video_style: "Before/After Swipe"
+
+  - id: 03
+    name: "AI Agent Academy"
+    handle: "@aiagentacademy"
+    cpm: "$1.5 per 1,000 Views"
+    budget: "$3,000"
+    platforms: [TikTok, YouTube, X]
+    niche: "AI / Automation"
+    hook: "Build AI agents that make money while you sleep"
+    video_style: "3-Second Tutorial"
+
+  - id: 04
+    name: "Alpha Trading Signals"
+    handle: "@alpha_signals"
+    cpm: "$2.5 per 1,000 Views"
+    budget: "$5,000"
+    platforms: [TikTok, YouTube]
+    niche: "Trading / Finance"
+    hook: "Copy trades from $10K/day traders"
+    video_style: "Exploding Numbers"
+
+  - id: 05
+    name: "Clip Farm Community"
+    handle: "@clipfarm"
+    cpm: "$1 per 1,000 Views"
+    budget: "$2,500"
+    platforms: [TikTok, Instagram, YouTube]
+    niche: "Content Creation / Editing"
+    hook: "Get paid to edit viral TikToks"
+    video_style: "Day in the Life"
+
+  - id: 06
+    name: "Fitness Coaching Elite"
+    handle: "@fitcoach_pro"
+    cpm: "$1.2 per 1,000 Views"
+    budget: "$1,800"
+    platforms: [TikTok, Instagram]
+    niche: "Fitness / Coaching"
+    hook: "Transform bodies in 30 days"
+    video_style: "Before/After Swipe"
+
+  - id: 07
+    name: "SaaS Dev Tools Bundle"
+    handle: "@saasdev"
+    cpm: "$3 per 1,000 Views"
+    budget: "$4,000"
+    platforms: [YouTube, X, TikTok]
+    niche: "Developer Tools / SaaS"
+    hook: "$10K MRR with this dev toolkit"
+    video_style: "The 3-Second Tutorial"
+
+  - id: 08
+    name: "Crypto Alpha Group"
+    handle: "@crypto_alpha"
+    cpm: "$2 per 1,000 Views"
+    budget: "$3,500"
+    platforms: [TikTok, X, YouTube]
+    niche: "Crypto / Web3"
+    hook: "Early alpha calls before pumps"
+    video_style: "Leaked DM"
+
+  - id: 09
+    name: "Ecom Scaling Secrets"
+    handle: "@ecomscaler"
+    cpm: "$1.8 per 1,000 Views"
+    budget: "$2,200"
+    platforms: [TikTok, Instagram, YouTube]
+    niche: "E-commerce / Dropshipping"
+    hook: "$0 to $50K in 90 days"
+    video_style: "Countdown Drop"
+
+  - id: 10
+    name: "Content Creator OS"
+    handle: "@ccosystem"
+    cpm: "$1.5 per 1,000 Views"
+    budget: "$2,800"
+    platforms: [TikTok, YouTube, Instagram]
+    niche: "Creator Economy / Productivity"
+    hook: "The system behind 1M+ creators"
+    video_style: "Reaction Video"

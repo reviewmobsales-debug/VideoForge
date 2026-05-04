@@ -1,0 +1,129 @@
+{
+  "video_id": "test_watcher",
+  "video_file": "demo/test_watcher.mp4",
+  "generated_at": "2026-05-01T06:22:03.522588+00:00",
+  "niche": "ai_tool",
+  "video_properties": {
+    "duration_sec": 0.0,
+    "width": 0,
+    "height": 0,
+    "fps": 0.0,
+    "file_size_bytes": 0,
+    "bitrate": 0
+  },
+  "captions": {
+    "universal": [
+      "Level up your app reviews with AI — auto-reply smarter, not harder.",
+      "The fastest way to turn angry reviews into loyal users.",
+      "One dashboard. Every platform. Zero missed reviews."
+    ],
+    "tiktok": [
+      "POV: you never miss another review again 📲⚡ #AIMarketing",
+      "Reply to every app review in under 5 seconds 💬🤖\n\nNo team needed.",
+      "This AI tool makes responding to reviews actually FUN 🎯\nTry it 👇"
+    ],
+    "instagram": [
+      "Turn every review into a conversation 💬✨\nAI-powered replies that feel human.\n\nLink in bio.",
+      "Your app deserves replies this fast ⚡🤍\n#AppGrowth #AIMarketing",
+      "One dashboard → all platforms → done.\nStop drowning in reviews. Start growing ⬆️"
+    ],
+    "youtube_shorts": [
+      "Auto-reply to App Store & Google Play reviews with AI 🤖\nSave 10+ hours a week.",
+      "This simple AI tool increased our review response rate from 12% → 98% 📈",
+      "Stop ignoring negative reviews. Fix them in seconds with AI 👇"
+    ],
+    "twitter": [
+      "AI just made replying to app reviews effortless.\n\nOne dashboard. All platforms. Zero missed reviews. 🚀",
+      "Your support team called — they want this tool.\n\nAuto-reply to every review in seconds ⚡"
+    ],
+    "linkedin": [
+      "For app founders: AI review automation cuts response time by 95% and boosts ratings.\n\nOne dashboard, every platform.",
+      "Customer retention starts with being heard. Automate review replies without losing the human touch."
+    ]
+  },
+  "hashtags": {
+    "core": [
+      "#AIMarketing",
+      "#AppGrowth",
+      "#SaaS",
+      "#AI",
+      "#AppStore"
+    ],
+    "secondary": [
+      "#ReviewManagement",
+      "#CustomerSupport",
+      "#StartupLife",
+      "#ProductHunt",
+      "#GrowthHacking"
+    ],
+    "audience": [
+      "#IndieHackers",
+      "#AppDevelopers",
+      "#SaaSFounders",
+      "#DigitalMarketing",
+      "#MarTech"
+    ],
+    "trending": [
+      "#AITools",
+      "#Automation",
+      "#NoCode",
+      "#BuildInPublic",
+      "#TechTrends"
+    ],
+    "platform_bundles": {
+      "tiktok": "#AIMarketing #AppGrowth #SaaS #AITools #Automation #IndieHackers",
+      "instagram": "#AIMarketing #AppGrowth #SaaS #AI #ReviewManagement #CustomerSupport #StartupLife #IndieHackers #AppDevelopers",
+      "youtube_shorts": "#AIMarketing #AppGrowth #SaaS #AI #ReviewManagement #CustomerSupport #AITools #Automation",
+      "twitter": "#AIMarketing #AppGrowth #SaaS #AITools #Automation #NoCode",
+      "linkedin": "#ReviewManagement #CustomerSupport #StartupLife #IndieHackers #AppDevelopers #SaaSFounders"
+    }
+  },
+  "thumbnails": [],
+  "platform_posts": {
+    "tiktok": {
+      "caption": "POV: you never miss another review again 📲⚡ #AIMarketing",
+      "hashtags": "#AIMarketing #AppGrowth #SaaS #AITools #Automation #IndieHackers",
+      "full_text": "POV: you never miss another review again 📲⚡ #AIMarketing\n\n#AIMarketing #AppGrowth #SaaS #AITools #Automation #IndieHackers",
+      "cta": "Link in bio / Try free 👇",
+      "character_count": 122,
+      "ready": true
+    },
+    "instagram": {
+      "caption": "Turn every review into a conversation 💬✨\nAI-powered replies that feel human.\n\nLink in bio.",
+      "hashtags": "#AIMarketing #AppGrowth #SaaS #AI #ReviewManagement #CustomerSupport #StartupLife #IndieHackers #AppDevelopers",
+      "full_text": "Turn every review into a conversation 💬✨\nAI-powered replies that feel human.\n\nLink in bio.\n\n#AIMarketing #AppGrowth #SaaS #AI #ReviewManagement #CustomerSupport #StartupLife #IndieHackers #AppDevelopers",
+      "cta": "Link in bio / Try free 👇",
+      "character_count": 202,
+      "ready": true
+    },
+    "youtube_shorts": {
+      "caption": "Auto-reply to App Store & Google Play reviews with AI 🤖\nSave 10+ hours a week.",
+      "hashtags": "#AIMarketing #AppGrowth #SaaS #AI #ReviewManagement #CustomerSupport #AITools #Automation",
+      "full_text": "Auto-reply to App Store & Google Play reviews with AI 🤖\nSave 10+ hours a week.\n\n#AIMarketing #AppGrowth #SaaS #AI #ReviewManagement #CustomerSupport #AITools #Automation",
+      "cta": "Link in bio / Try free 👇",
+      "character_count": 169,
+      "ready": true
+    },
+    "twitter": {
+      "caption": "AI just made replying to app reviews effortless.\n\nOne dashboard. All platforms. Zero missed reviews. 🚀",
+      "hashtags": "#AIMarketing #AppGrowth #SaaS #AITools #Automation #NoCode",
+      "full_text": "AI just made replying to app reviews effortless.\n\nOne dashboard. All platforms. Zero missed reviews. 🚀\n\n#AIMarketing #AppGrowth #SaaS #AITools #Automation #NoCode",
+      "cta": "Learn more at reviewmob.ai",
+      "character_count": 162,
+      "ready": true
+    },
+    "linkedin": {
+      "caption": "For app founders: AI review automation cuts response time by 95% and boosts ratings.\n\nOne dashboard, every platform.",
+      "hashtags": "#ReviewManagement #CustomerSupport #StartupLife #IndieHackers #AppDevelopers #SaaSFounders",
+      "full_text": "For app founders: AI review automation cuts response time by 95% and boosts ratings.\n\nOne dashboard, every platform.\n\n#ReviewManagement #CustomerSupport #StartupLife #IndieHackers #AppDevelopers #SaaSFounders",
+      "cta": "Learn more at reviewmob.ai",
+      "character_count": 208,
+      "ready": true
+    }
+  },
+  "status": {
+    "promo_ready": true,
+    "posted": {},
+    "scheduled": {}
+  }
+}

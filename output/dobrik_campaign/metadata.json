@@ -1,0 +1,73 @@
+[
+  {
+    "id": "clip1_hook",
+    "title": "DISCOVERED THE CAR CRASH",
+    "start": 0,
+    "end": 27,
+    "hook_text": "There's no fucking way! Dude, there's no way!",
+    "hashtags": [
+      "#caraccident",
+      "#daviddobrik",
+      "#viral",
+      "#omg",
+      "#reaction",
+      "#nosleep"
+    ]
+  },
+  {
+    "id": "clip2_worse",
+    "title": "MADE IT WORSE",
+    "start": 57,
+    "end": 72,
+    "hook_text": "I was like, It's over",
+    "hashtags": [
+      "#carcrash",
+      "#fail",
+      "#viral",
+      "#reaction",
+      "#prank"
+    ]
+  },
+  {
+    "id": "clip3_bali",
+    "title": "$4K VILLA REVEAL",
+    "start": 260,
+    "end": 340,
+    "hook_text": "This is what $4,000 a night gets you",
+    "hashtags": [
+      "#bali",
+      "#luxury",
+      "#villa",
+      "#daviddobrik",
+      "#travel",
+      "#insane"
+    ]
+  },
+  {
+    "id": "clip4_naked",
+    "title": "ROOM MIXUP",
+    "start": 312,
+    "end": 350,
+    "hook_text": "I saw Natalie naked",
+    "hashtags": [
+      "#awkward",
+      "#funny",
+      "#daviddobrik",
+      "#viral"
+    ]
+  },
+  {
+    "id": "clip5_gift",
+    "title": "$10K SURPRISE",
+    "start": 587,
+    "end": 700,
+    "hook_text": "This is $10,000",
+    "hashtags": [
+      "#gift",
+      "#surprise",
+      "#kindness",
+      "#daviddobrik",
+      "#emotional"
+    ]
+  }
+]
