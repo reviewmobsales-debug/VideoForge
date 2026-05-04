@@ -1,0 +1,474 @@
+{
+  "video_briefs": [
+    {
+      "campaign_id": "01",
+      "campaign_name": "killdozer Clipping",
+      "handle": "@contentrewardsbot",
+      "niche": "Gaming / Edgy Content",
+      "hook": "Make $ editing gaming clips",
+      "style": "Glitch Reveal",
+      "timeline": {
+        "0-3s_hook": "Glitch text reveal: 'CLIP FOR KILLDOZER' over dark gaming footage. Rapid 3-frame subliminal cuts of frag highlights. Face of editor illuminated by monitor glow.",
+        "3-7s_body": "Split screen: raw gameplay left, edited viral clip right. Show cursor scrubbing timeline, adding motion blur. One clean transition.",
+        "7-12s_proof": "Glitch transition to earnings dashboard screenshot. '$1,847 this month' text pulses. Quick zoom on Whop payout page.",
+        "12-15s_CTA": "Editor turns to camera. 'Link in bio. Start clipping.' Freeze frame on CTA button."
+      },
+      "text_overlays": [
+        "Edit clips. Get paid.",
+        "Raw to viral.",
+        "$1,847 this month.",
+        "Join Killdozer."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "1.5s",
+        "3.0s",
+        "7.0s",
+        "9.0s",
+        "12.0s",
+        "14.5s"
+      ],
+      "color_palette": {
+        "primary": "#FF0055",
+        "secondary": "#00FFFF",
+        "accent": "#FFFF00",
+        "background": "#0A0A0A"
+      },
+      "music_suggestion": {
+        "genre": "Phonk / Drift Phonk",
+        "bpm": 140,
+        "vibe": "Aggressive distorted bass, cowbell hi-hats, underground gaming energy"
+      }
+    },
+    {
+      "campaign_id": "02",
+      "campaign_name": "Cynthia Jade Fanpages",
+      "handle": "@valorrajveer",
+      "niche": "Creator Economy / Fan Content",
+      "hook": "Run official fan pages for top creators",
+      "style": "Before/After Swipe",
+      "timeline": {
+        "0-3s_hook": "Swipe reveal: empty fanpage profile (0 followers) \u2192 thriving grid with 50K+ and verified badge. Hand swipes screen.",
+        "3-7s_body": "Close-up of content calendar, scheduled posts, community comments flooding in. Show 'official' badge zoom.",
+        "7-12s_proof": "Screen recording of Whop earnings. '$2,100 est. this month.' Notification dings for new fanpage member.",
+        "12-15s_CTA": "Creator smile, point down. 'Apply to run a page. Link below.'"
+      },
+      "text_overlays": [
+        "Zero to fifty K.",
+        "Run official pages.",
+        "$2,100 this month.",
+        "Apply now."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "3.0s",
+        "5.5s",
+        "7.5s",
+        "10.0s",
+        "12.5s"
+      ],
+      "color_palette": {
+        "primary": "#FF6B9D",
+        "secondary": "#A8E6CF",
+        "accent": "#FFD700",
+        "background": "#FFFFFF"
+      },
+      "music_suggestion": {
+        "genre": "Pop / Alt R&B",
+        "bpm": 110,
+        "vibe": "Dreamy, trendy, soft vocals, TikTok trending audio feel"
+      }
+    },
+    {
+      "campaign_id": "03",
+      "campaign_name": "AI Agent Academy",
+      "handle": "@aiagentacademy",
+      "niche": "AI / Automation",
+      "hook": "Build AI agents that make money while you sleep",
+      "style": "3-Sec Tutorial",
+      "timeline": {
+        "0-3s_hook": "Terminal screen. Typing sound. 'Build an AI agent in 3 seconds.' Green code cascades. Agent avatar assembles.",
+        "3-7s_body": "Rapid montage: OpenAI API key paste \u2192 agent logic blocks snapping together \u2192 CRM webhook fires.",
+        "7-12s_proof": "Dark mode Stripe dashboard. Revenue bar climbs. 'It booked a call while I slept.'",
+        "12-15s_CTA": "Agent status: LIVE. CTA text with glow effect. 'Link below.'"
+      },
+      "text_overlays": [
+        "AI agent live.",
+        "It works 24/7.",
+        "Revenue climbs asleep.",
+        "Build yours now."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "2.0s",
+        "3.0s",
+        "5.0s",
+        "7.5s",
+        "11.0s",
+        "13.5s"
+      ],
+      "color_palette": {
+        "primary": "#00FF88",
+        "secondary": "#1A1A2E",
+        "accent": "#7B61FF",
+        "background": "#0D1117"
+      },
+      "music_suggestion": {
+        "genre": "Dark Techno / Minimal House",
+        "bpm": 128,
+        "vibe": "Futuristic, mechanical, synth arpeggios, no vocals"
+      }
+    },
+    {
+      "campaign_id": "04",
+      "campaign_name": "Alpha Trading Signals",
+      "handle": "@alpha_signals",
+      "niche": "Trading / Finance",
+      "hook": "Copy trades from $10K/day traders",
+      "style": "Exploding Numbers",
+      "timeline": {
+        "0-3s_hook": "Black screen. '$0' explodes into '$10,000/day' with particle effect. Alarm sound. Trader silhouette.",
+        "3-7s_body": "Fast cuts of candlestick charts, order flow, trader clicking 'copy trade.' Phone screen shows push notification.",
+        "7-12s_proof": "Exploding numbers: win rate 78%, monthly PnL +$42K. Screenshot of copied trade executing.",
+        "12-15s_CTA": "Bold text: 'Copy the trades.' Finger taps CTA button. Link in bio pops."
+      },
+      "text_overlays": [
+        "Zero to ten K daily.",
+        "Copy pro trades.",
+        "Win rate seventy-eight.",
+        "Copy now below."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "2.0s",
+        "3.5s",
+        "6.0s",
+        "8.5s",
+        "11.0s",
+        "13.0s"
+      ],
+      "color_palette": {
+        "primary": "#00D4FF",
+        "secondary": "#FACC15",
+        "accent": "#10B981",
+        "background": "#0F172A"
+      },
+      "music_suggestion": {
+        "genre": "Drill / Cinematic Trap",
+        "bpm": 150,
+        "vibe": "Intense, high stakes, brass stabs, 808 slides"
+      }
+    },
+    {
+      "campaign_id": "05",
+      "campaign_name": "Clip Farm Community",
+      "handle": "@clipfarm",
+      "niche": "Content Creation / Editing",
+      "hook": "Get paid to edit viral TikToks",
+      "style": "Day in Life",
+      "timeline": {
+        "0-3s_hook": "Alarm clock 7 AM. Coffee pour POV. Text: 'Another paid clip day.' Soft morning light.",
+        "3-7s_body": "Time-lapse: editor at dual monitors, timeline scrubbing, adding captions, exporting file with progress bar.",
+        "7-12s_proof": "Dashboard reveals: '$2,140 this month' from Whop. DM from client: 'This went viral.' Thumbs up.",
+        "12-15s_CTA": "Walk away from desk to window. Text overlay: 'Get paid to edit. Apply now.'"
+      },
+      "text_overlays": [
+        "Another paid clip day.",
+        "Edit viral videos.",
+        "$2,140 monthly payouts.",
+        "Get paid today."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "2.5s",
+        "4.0s",
+        "6.0s",
+        "8.5s",
+        "11.0s",
+        "13.5s"
+      ],
+      "color_palette": {
+        "primary": "#FF7E5F",
+        "secondary": "#FEB47B",
+        "accent": "#4ECDC4",
+        "background": "#FAFAFA"
+      },
+      "music_suggestion": {
+        "genre": "Lo-fi Hip Hop / Chillhop",
+        "bpm": 85,
+        "vibe": "Cozy, productive, jazz chords, vinyl crackle"
+      }
+    },
+    {
+      "campaign_id": "06",
+      "campaign_name": "Fitness Coaching Elite",
+      "handle": "@fitcoach_pro",
+      "niche": "Fitness / Coaching",
+      "hook": "Transform bodies in 30 days",
+      "style": "Before/After Swipe",
+      "timeline": {
+        "0-3s_hook": "Swipe transformation: left side day 1 physique, right side day 30 ripped. Text: '30 days.'",
+        "3-7s_body": "Montage: meal prep containers, coaching app timer, push-up counter, voice note from coach.",
+        "7-12s_proof": "Grid of before/after client photos. Star rating 5.0 / 312 reviews. Checkmarks on goal list.",
+        "12-15s_CTA": "Coach flexes, points to link. 'Start your 30 days. Link below.'"
+      },
+      "text_overlays": [
+        "Thirty day transform.",
+        "Coach in pocket.",
+        "Three hundred reviews.",
+        "Join the elite."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "3.0s",
+        "5.0s",
+        "7.0s",
+        "9.5s",
+        "12.0s",
+        "14.0s"
+      ],
+      "color_palette": {
+        "primary": "#FF4757",
+        "secondary": "#2ED573",
+        "accent": "#FFA502",
+        "background": "#FFFFFF"
+      },
+      "music_suggestion": {
+        "genre": "EDM / Future Bass",
+        "bpm": 128,
+        "vibe": "Energetic, motivational, big synth chords, vocal chops"
+      }
+    },
+    {
+      "campaign_id": "07",
+      "campaign_name": "SaaS Dev Tools Bundle",
+      "handle": "@saasdev",
+      "niche": "Developer Tools / SaaS",
+      "hook": "$10K MRR with this dev toolkit",
+      "style": "3-Sec Tutorial",
+      "timeline": {
+        "0-3s_hook": "Code blocks fly into place. 'Launch SaaS in 3 seconds.' Terminal prints 'DEPLOYED.'",
+        "3-7s_body": "Rapid tool showcase: auth screen, billing portal, database row, component library. Each snaps into a toolkit briefcase graphic.",
+        "7-12s_proof": "Stripe MRR chart rises to $10K. GitHub commits graph shows velocity. 'Shipped in 3 days.'",
+        "12-15s_CTA": "Neon CTA button pulses. 'Grab the toolkit. Link in bio.'"
+      },
+      "text_overlays": [
+        "Ship SaaS faster.",
+        "Auth billing done.",
+        "Ten K MRR shown.",
+        "Grab toolkit now."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "1.5s",
+        "3.0s",
+        "4.5s",
+        "7.0s",
+        "9.5s",
+        "12.5s"
+      ],
+      "color_palette": {
+        "primary": "#6366F1",
+        "secondary": "#22D3EE",
+        "accent": "#A78BFA",
+        "background": "#020617"
+      },
+      "music_suggestion": {
+        "genre": "Synthwave / Retrowave",
+        "bpm": 120,
+        "vibe": "Tech, nostalgic, analog synths, sleek neon atmosphere"
+      }
+    },
+    {
+      "campaign_id": "08",
+      "campaign_name": "Crypto Alpha Group",
+      "handle": "@crypto_alpha",
+      "niche": "Crypto / Web3",
+      "hook": "Early alpha calls before pumps",
+      "style": "Leaked DM",
+      "timeline": {
+        "0-3s_hook": "Phone notification: 'New Alpha Call.' Blurred screenshot sharpens to reveal ticker. 'Leaked alpha DM.'",
+        "3-7s_body": "DM conversation slides in. Timestamps. Ticker name highlighted. Cut to chart. Price pumps vertical.",
+        "7-12s_proof": "Wallet balance counter ticks up. '3x in 48 hours.' ROI badge flashes 300%.",
+        "12-15s_CTA": "Finger covers screen, whispers. 'Get early calls. Join below.'"
+      },
+      "text_overlays": [
+        "Leaked alpha call.",
+        "Chart went vertical.",
+        "Three X in days.",
+        "Get early calls."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "1.8s",
+        "3.5s",
+        "6.0s",
+        "8.0s",
+        "10.5s",
+        "13.0s"
+      ],
+      "color_palette": {
+        "primary": "#7C3AED",
+        "secondary": "#06B6D4",
+        "accent": "#F43F5E",
+        "background": "#18181B"
+      },
+      "music_suggestion": {
+        "genre": "UK Garage / Bassline",
+        "bpm": 132,
+        "vibe": "Underground, secretive, shuffled beats, heavy bass stabs"
+      }
+    },
+    {
+      "campaign_id": "09",
+      "campaign_name": "Ecom Scaling Secrets",
+      "handle": "@ecomscaler",
+      "niche": "E-commerce / Dropshipping",
+      "hook": "$0 to $50K in 90 days",
+      "style": "Countdown Drop",
+      "timeline": {
+        "0-3s_hook": "Black screen. Numbers rapidly count '$0... $50K' in 90 days. Glitch number effect. 'How?'",
+        "3-7s_body": "Product video ad plays, then Shopify backend shows orders flooding in. Ad spend meter vs revenue meter race.",
+        "7-12s_proof": "Exploding order notifications. Fulfillment center packing boxes. Payouts hitting bank account.",
+        "12-15s_CTA": "Bold countdown text: '90 days left. Start now.' Link pops."
+      },
+      "text_overlays": [
+        "Zero to fifty K.",
+        "Ninety day system.",
+        "Orders flooding in.",
+        "Start scaling now."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "1.0s",
+        "2.0s",
+        "3.0s",
+        "5.5s",
+        "8.0s",
+        "11.0s",
+        "13.5s"
+      ],
+      "color_palette": {
+        "primary": "#0EA5E9",
+        "secondary": "#F59E0B",
+        "accent": "#84CC16",
+        "background": "#111827"
+      },
+      "music_suggestion": {
+        "genre": "Jersey Club / Trap",
+        "bpm": 140,
+        "vibe": "Bouncy, hype, bed squeaks, triplet hi-hats, fast momentum"
+      }
+    },
+    {
+      "campaign_id": "10",
+      "campaign_name": "Content Creator OS",
+      "handle": "@ccosystem",
+      "niche": "Creator Economy / Productivity",
+      "hook": "The system behind 1M+ creators",
+      "style": "Reaction Video",
+      "timeline": {
+        "0-3s_hook": "Creator gasps at phone screen. 'This is the system behind 1M+ creators.' Reaction zoom face.",
+        "3-7s_body": "Split screen: messy desktop full of files vs clean Content Creator OS dashboard. Swipe transition.",
+        "7-12s_proof": "Stats cascade: 1.2M followers, $48K/month, 12 brand deals. Graph lines animate up.",
+        "12-15s_CTA": "Creator steals laptop, runs toward camera. 'Steal the system. Link below.'"
+      },
+      "text_overlays": [
+        "Behind one M creators.",
+        "Messy to organized.",
+        "Forty-eight K monthly.",
+        "Steal it now."
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "2.0s",
+        "3.5s",
+        "6.0s",
+        "8.5s",
+        "11.0s",
+        "13.5s"
+      ],
+      "color_palette": {
+        "primary": "#EC4899",
+        "secondary": "#8B5CF6",
+        "accent": "#14B8A6",
+        "background": "#F3F4F6"
+      },
+      "music_suggestion": {
+        "genre": "Indie Dance / Nu Disco",
+        "bpm": 118,
+        "vibe": "Fun, viral, funky basslines, sparkly synths, feel-good energy"
+      }
+    },
+    {
+      "campaign_id": "11",
+      "campaign_name": "David Dobrik Viral Clips",
+      "handle": "@daviddobrik",
+      "niche": "Creator / Reaction / Lifestyle",
+      "hook": "Reacting to crazy real-life moments and insane surprises",
+      "style": "Fast-Cut Reaction / Viral Moments",
+      "timeline": {
+        "overall": "5 viral clips extracted from Dobrik content and captioned for TikTok posting"
+      },
+      "clips": [
+        {
+          "id": "clip1_hook",
+          "title": "DISCOVERED THE CAR CRASH",
+          "hook_text": "There is no fucking way! Dude, there is no way!",
+          "duration": "27s"
+        },
+        {
+          "id": "clip2_worse",
+          "title": "MADE IT WORSE",
+          "hook_text": "I was like, It is over",
+          "duration": "15s"
+        },
+        {
+          "id": "clip3_bali",
+          "title": "K VILLA REVEAL",
+          "hook_text": "This is what ,000 a night gets you",
+          "duration": "80s"
+        },
+        {
+          "id": "clip4_naked",
+          "title": "ROOM MIXUP",
+          "hook_text": "I saw Natalie naked",
+          "duration": "38s"
+        },
+        {
+          "id": "clip5_gift",
+          "title": "0K SURPRISE",
+          "hook_text": "This is 0,000",
+          "duration": "113s"
+        }
+      ],
+      "text_overlays": [
+        "CAR CRASH REACTION",
+        "MADE IT WORSE",
+        "K VILLA",
+        "ROOM MIXUP",
+        "0K SURPRISE"
+      ],
+      "beat_sync_points": [
+        "0.0s",
+        "2.0s",
+        "5.0s",
+        "8.0s",
+        "12.0s"
+      ],
+      "color_palette": {
+        "primary": "#FF0055",
+        "secondary": "#00FFFF",
+        "accent": "#FFD700",
+        "background": "#0A0A0A"
+      },
+      "music_suggestion": {
+        "genre": "Pop / Viral Audio",
+        "bpm": 120,
+        "vibe": "Trendy, high-energy, reaction-driven, TikTok trending audio feel"
+      },
+      "release_tag": "dobrik-campaign-v1",
+      "published_at": "2026-05-04"
+    }
+  ]
+}
