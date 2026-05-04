@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-04T14:42:12.736082+00:00",
+  "generated_at": "2026-05-04T16:54:13.957760+00:00",
   "theme": {
-    "title": "DRIBBLE KING",
-    "subtitle": "NO LOOK",
+    "title": "GOAL MACHINE",
+    "subtitle": "UNSTOPPABLE",
     "colors": [
-      "#34C759",
+      "#FF3B30",
       "#FFFFFF"
     ]
   },
-  "transition": "fade",
-  "source_video": "football_dribble_mixkit.mp4",
+  "transition": "diagtl",
+  "source_video": "football_goal_mixkit.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_dribble_king.jpg",
+  "thumbnail": "output/thumbnails/thumb_goal_machine.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
-    "duration_sec": 5.77,
-    "file_size_bytes": 1273592,
-    "bitrate": 1767032
+    "duration_sec": 5.23,
+    "file_size_bytes": 1577020,
+    "bitrate": 2410731
   }
 }
