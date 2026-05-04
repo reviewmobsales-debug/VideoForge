@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-04T17:55:38.995585+00:00",
+  "generated_at": "2026-05-04T21:04:03.135855+00:00",
   "theme": {
-    "title": "BARCA DNA",
-    "subtitle": "LA MASIA",
+    "title": "TOP CORNER",
+    "subtitle": "PERFECTION",
     "colors": [
-      "#AF52DE",
-      "#FFD60A"
+      "#FF2D55",
+      "#FFFFFF"
     ]
   },
-  "transition": "circlecrop",
-  "source_video": "football_dribble_mixkit.mp4",
+  "transition": "zoomin",
+  "source_video": "football_juggling.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_barca_dna.jpg",
+  "thumbnail": "output/thumbnails/thumb_top_corner.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
-    "duration_sec": 5.27,
-    "file_size_bytes": 1147565,
-    "bitrate": 1743136
+    "duration_sec": 9.27,
+    "file_size_bytes": 2390860,
+    "bitrate": 2064051
   }
 }
