@@ -1,0 +1,318 @@
+{
+  "format": "edl",
+  "version": "1",
+  "grade": "auto",
+  "sources": {
+    "output": "/Users/openclawmaskin/VideoForge/public/demo/output.mp4"
+  },
+  "ranges": [
+    {
+      "source": "output",
+      "start": 0.03,
+      "end": 1.088,
+      "note": "viral=0.154 hook=0.0 energy=0.513"
+    },
+    {
+      "source": "output",
+      "start": 1.944,
+      "end": 3.944,
+      "note": "viral=0.196 hook=0.0 energy=0.652"
+    },
+    {
+      "source": "output",
+      "start": 4.192,
+      "end": 6.368,
+      "note": "viral=0.298 hook=0.0 energy=0.994"
+    },
+    {
+      "source": "output",
+      "start": 6.848,
+      "end": 8.928,
+      "note": "viral=0.268 hook=0.0 energy=0.893"
+    },
+    {
+      "source": "output",
+      "start": 8.928,
+      "end": 12.16,
+      "note": "viral=0.362 hook=0.0 energy=1.0"
+    }
+  ],
+  "audio_beats": [
+    {
+      "time": 0.128,
+      "strength": 10.427,
+      "is_beat": true
+    },
+    {
+      "time": 0.864,
+      "strength": 0.726,
+      "is_beat": true
+    },
+    {
+      "time": 1.088,
+      "strength": 2.062,
+      "is_beat": false
+    },
+    {
+      "time": 1.568,
+      "strength": 2.432,
+      "is_beat": true
+    },
+    {
+      "time": 2.24,
+      "strength": 1.26,
+      "is_beat": true
+    },
+    {
+      "time": 2.944,
+      "strength": 2.226,
+      "is_beat": true
+    },
+    {
+      "time": 3.424,
+      "strength": 2.296,
+      "is_beat": false
+    },
+    {
+      "time": 3.616,
+      "strength": 1.71,
+      "is_beat": true
+    },
+    {
+      "time": 3.808,
+      "strength": 3.057,
+      "is_beat": false
+    },
+    {
+      "time": 4.192,
+      "strength": 5.782,
+      "is_beat": true
+    },
+    {
+      "time": 4.544,
+      "strength": 6.636,
+      "is_beat": false
+    },
+    {
+      "time": 4.768,
+      "strength": 3.396,
+      "is_beat": false
+    },
+    {
+      "time": 4.992,
+      "strength": 7.993,
+      "is_beat": true
+    },
+    {
+      "time": 5.216,
+      "strength": 3.832,
+      "is_beat": false
+    },
+    {
+      "time": 5.696,
+      "strength": 8.647,
+      "is_beat": true
+    },
+    {
+      "time": 5.92,
+      "strength": 3.434,
+      "is_beat": false
+    },
+    {
+      "time": 6.368,
+      "strength": 5.226,
+      "is_beat": true
+    },
+    {
+      "time": 6.624,
+      "strength": 3.876,
+      "is_beat": false
+    },
+    {
+      "time": 6.848,
+      "strength": 7.512,
+      "is_beat": false
+    },
+    {
+      "time": 7.072,
+      "strength": 3.382,
+      "is_beat": true
+    },
+    {
+      "time": 7.296,
+      "strength": 3.292,
+      "is_beat": false
+    },
+    {
+      "time": 7.52,
+      "strength": 3.656,
+      "is_beat": false
+    },
+    {
+      "time": 7.872,
+      "strength": 4.867,
+      "is_beat": true
+    },
+    {
+      "time": 8.032,
+      "strength": 2.201,
+      "is_beat": true
+    },
+    {
+      "time": 8.224,
+      "strength": 6.51,
+      "is_beat": false
+    },
+    {
+      "time": 8.48,
+      "strength": 3.231,
+      "is_beat": false
+    },
+    {
+      "time": 8.672,
+      "strength": 3.51,
+      "is_beat": true
+    },
+    {
+      "time": 8.928,
+      "strength": 5.724,
+      "is_beat": false
+    },
+    {
+      "time": 9.376,
+      "strength": 8.632,
+      "is_beat": true
+    },
+    {
+      "time": 9.632,
+      "strength": 3.328,
+      "is_beat": false
+    },
+    {
+      "time": 10.08,
+      "strength": 6.819,
+      "is_beat": true
+    },
+    {
+      "time": 10.304,
+      "strength": 3.94,
+      "is_beat": false
+    },
+    {
+      "time": 10.56,
+      "strength": 2.422,
+      "is_beat": false
+    },
+    {
+      "time": 10.784,
+      "strength": 2.946,
+      "is_beat": true
+    },
+    {
+      "time": 11.008,
+      "strength": 2.561,
+      "is_beat": false
+    },
+    {
+      "time": 11.2,
+      "strength": 8.682,
+      "is_beat": false
+    },
+    {
+      "time": 11.456,
+      "strength": 0.234,
+      "is_beat": true
+    },
+    {
+      "time": 11.936,
+      "strength": 3.245,
+      "is_beat": false
+    },
+    {
+      "time": 12.16,
+      "strength": 6.25,
+      "is_beat": true
+    },
+    {
+      "time": 12.384,
+      "strength": 4.667,
+      "is_beat": false
+    },
+    {
+      "time": 12.608,
+      "strength": 4.704,
+      "is_beat": false
+    },
+    {
+      "time": 12.864,
+      "strength": 2.941,
+      "is_beat": true
+    },
+    {
+      "time": 13.056,
+      "strength": 11.422,
+      "is_beat": false
+    },
+    {
+      "time": 13.216,
+      "strength": 2.368,
+      "is_beat": false
+    },
+    {
+      "time": 13.44,
+      "strength": 2.429,
+      "is_beat": false
+    },
+    {
+      "time": 13.664,
+      "strength": 2.439,
+      "is_beat": false
+    },
+    {
+      "time": 13.984,
+      "strength": 3.095,
+      "is_beat": false
+    }
+  ],
+  "transcript_summary": {
+    "word_count": 1,
+    "top_moments": [
+      {
+        "start": 0.03,
+        "end": 1.088,
+        "text": "",
+        "viral_score": 0.154
+      },
+      {
+        "start": 1.944,
+        "end": 3.944,
+        "text": "",
+        "viral_score": 0.196
+      },
+      {
+        "start": 4.192,
+        "end": 6.368,
+        "text": "",
+        "viral_score": 0.298
+      },
+      {
+        "start": 6.848,
+        "end": 8.928,
+        "text": "",
+        "viral_score": 0.268
+      },
+      {
+        "start": 8.928,
+        "end": 12.16,
+        "text": "Music",
+        "viral_score": 0.362
+      },
+      {
+        "start": 12.16,
+        "end": 14.216,
+        "text": "",
+        "viral_score": 0.271
+      }
+    ]
+  }
+}

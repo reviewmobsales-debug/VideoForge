@@ -1,0 +1,31 @@
+{
+  "campaign_id": "dobrik",
+  "source": "/Users/openclawmaskin/VideoForge/raw/dobrik/Caught my own car accident on camera.mp4",
+  "generated_at": "2026-05-05T11:49:52.736412+00:00",
+  "clips": [
+    {
+      "file": "dobrik_clip1_3s.mp4",
+      "start": 3.0,
+      "end": 18.0,
+      "score": 0.5335499999999996,
+      "duration": 15.0,
+      "caption": "YOU WON'T BELIEVE THIS"
+    },
+    {
+      "file": "dobrik_clip2_27s.mp4",
+      "start": 27.0,
+      "end": 42.0,
+      "score": 0.4463500000000013,
+      "duration": 15.0,
+      "caption": "YOU WON'T BELIEVE THIS"
+    },
+    {
+      "file": "dobrik_clip3_135s.mp4",
+      "start": 135.0,
+      "end": 150.0,
+      "score": 0.2976000000000056,
+      "duration": 15.0,
+      "caption": "YOU WON'T BELIEVE THIS"
+    }
+  ]
+}

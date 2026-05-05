@@ -1,0 +1,150 @@
+{
+  "format": "edl",
+  "version": "1",
+  "grade": "auto",
+  "sources": {
+    "output": "/Users/openclawmaskin/VideoForge/public/demo/output.mp4"
+  },
+  "ranges": [
+    {
+      "source": "output",
+      "start": 0.139,
+      "end": 2.461,
+      "note": "viral=0.795 hook=0.488 energy=1.0"
+    },
+    {
+      "source": "output",
+      "start": 2.926,
+      "end": 5.47,
+      "note": "viral=0.683 hook=0.248 energy=0.956"
+    }
+  ],
+  "audio_beats": [
+    {
+      "time": 0.139,
+      "strength": 17.386744,
+      "is_beat": true,
+      "confidence": 1.0
+    },
+    {
+      "time": 0.604,
+      "strength": 1.565695,
+      "is_beat": true,
+      "confidence": 0.090051
+    },
+    {
+      "time": 1.068,
+      "strength": 0.859528,
+      "is_beat": true,
+      "confidence": 0.049436
+    },
+    {
+      "time": 1.533,
+      "strength": 2.784416,
+      "is_beat": true,
+      "confidence": 0.160146
+    },
+    {
+      "time": 1.997,
+      "strength": 1.622265,
+      "is_beat": true,
+      "confidence": 0.093305
+    },
+    {
+      "time": 2.461,
+      "strength": 1.820764,
+      "is_beat": true,
+      "confidence": 0.104721
+    },
+    {
+      "time": 2.926,
+      "strength": 1.987313,
+      "is_beat": true,
+      "confidence": 0.1143
+    },
+    {
+      "time": 3.39,
+      "strength": 2.451682,
+      "is_beat": true,
+      "confidence": 0.141009
+    },
+    {
+      "time": 3.831,
+      "strength": 3.164581,
+      "is_beat": true,
+      "confidence": 0.182011
+    },
+    {
+      "time": 4.296,
+      "strength": 2.292181,
+      "is_beat": true,
+      "confidence": 0.131835
+    },
+    {
+      "time": 4.76,
+      "strength": 3.632695,
+      "is_beat": true,
+      "confidence": 0.208935
+    },
+    {
+      "time": 5.224,
+      "strength": 3.645109,
+      "is_beat": true,
+      "confidence": 0.209649
+    },
+    {
+      "time": 5.689,
+      "strength": 6.820477,
+      "is_beat": true,
+      "confidence": 0.39228
+    }
+  ],
+  "moments": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "hook_score": 0.488,
+      "energy_score": 1.0,
+      "clarity_score": 1.0,
+      "viral_score": 0.795,
+      "text": "this is why ninety percent of what an agent does is",
+      "word_count": 11
+    },
+    {
+      "start": 1.0,
+      "end": 3.5,
+      "hook_score": 0.32,
+      "energy_score": 0.956,
+      "clarity_score": 1.0,
+      "viral_score": 0.712,
+      "text": "of what an agent does is completely wasted we fixed",
+      "word_count": 10
+    },
+    {
+      "start": 2.0,
+      "end": 4.5,
+      "hook_score": 0.24,
+      "energy_score": 0.956,
+      "clarity_score": 1.0,
+      "viral_score": 0.68,
+      "text": "does is completely wasted we fixed this the results are",
+      "word_count": 10,
+      "is_beat_aligned": true,
+      "beat_time": 3.39,
+      "beat_confidence": 0.141009
+    },
+    {
+      "start": 3.0,
+      "end": 5.5,
+      "hook_score": 0.248,
+      "energy_score": 0.956,
+      "clarity_score": 1.0,
+      "viral_score": 0.683,
+      "text": "fixed this the results are insane watch until the end",
+      "word_count": 10,
+      "is_beat_aligned": true,
+      "beat_time": 4.296,
+      "beat_confidence": 0.131835
+    }
+  ]
+}

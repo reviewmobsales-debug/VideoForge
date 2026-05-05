@@ -1,0 +1,73 @@
+{
+  "campaign": "dobrik_tiktok_campaign",
+  "qa_timestamp": "2026-05-05T10:55:57Z",
+  "agent": "videoeditor",
+  "clips": [
+    {
+      "file": "clip1_hook_captioned.mp4",
+      "resolution": "1080x1920",
+      "duration_sec": 27.0,
+      "fps": 24,
+      "bitrate_kbps": 2244,
+      "format": "mp4 (H.264/AAC)",
+      "captions_verified": true,
+      "caption_sample": "to Alex's car. Come",
+      "status": "PASS"
+    },
+    {
+      "file": "clip2_worse_captioned.mp4",
+      "resolution": "1080x1920",
+      "duration_sec": 15.0,
+      "fps": 24,
+      "bitrate_kbps": 2006,
+      "format": "mp4 (H.264/AAC)",
+      "captions_verified": true,
+      "caption_sample": "again. What I'm saying",
+      "status": "PASS"
+    },
+    {
+      "file": "clip3_bali_captioned.mp4",
+      "resolution": "1080x1920",
+      "duration_sec": 37.6,
+      "fps": 24,
+      "bitrate_kbps": 2994,
+      "format": "mp4 (H.264/AAC)",
+      "captions_verified": true,
+      "caption_sample": "MARGS / KONG (shirt text + burned-in subs)",
+      "status": "PASS"
+    },
+    {
+      "file": "clip4_naked_captioned.mp4",
+      "resolution": "1080x1920",
+      "duration_sec": 38.0,
+      "fps": 24,
+      "bitrate_kbps": 2237,
+      "format": "mp4 (H.264/AAC)",
+      "captions_verified": true,
+      "caption_sample": "back at it. Watch",
+      "status": "PASS"
+    },
+    {
+      "file": "clip5_gift_captioned.mp4",
+      "resolution": "1080x1920",
+      "duration_sec": 59.1,
+      "fps": 24,
+      "bitrate_kbps": 2197,
+      "format": "mp4 (H.264/AAC)",
+      "captions_verified": true,
+      "caption_sample": "I will. The / I will find the ah,",
+      "fix_applied": "Trimmed from 113s to 59s (exceeded TikTok 60s limit)",
+      "status": "PASS_AFTER_FIX"
+    }
+  ],
+  "summary": {
+    "total_clips": 5,
+    "pass": 4,
+    "pass_after_fix": 1,
+    "fail": 0,
+    "all_resolutions_ok": true,
+    "all_durations_ok": true,
+    "all_captions_present": true,
+    "output_dir": "/Users/openclawmaskin/VideoForge/output/dobrik_campaign"
+  }
+}

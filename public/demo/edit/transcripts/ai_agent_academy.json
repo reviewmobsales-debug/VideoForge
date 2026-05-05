@@ -1,0 +1,17 @@
+{
+  "source": "/Users/openclawmaskin/VideoForge/public/demo/ai_agent_academy.mp4",
+  "words": [
+    {
+      "type": "word",
+      "text": "Music",
+      "start": 10.5,
+      "end": 11.9,
+      "speaker_id": null
+    },
+    {
+      "type": "spacing",
+      "start": 11.9,
+      "end": 12.0
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "words": [
+    {
+      "type": "word",
+      "text": "this",
+      "start": 0.0,
+      "end": 0.18,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "is",
+      "start": 0.23,
+      "end": 0.41,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "why",
+      "start": 0.46,
+      "end": 0.64,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "ninety",
+      "start": 0.69,
+      "end": 0.87,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "spacing",
+      "start": 0.89,
+      "end": 0.92
+    },
+    {
+      "type": "word",
+      "text": "percent",
+      "start": 0.92,
+      "end": 1.1,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "of",
+      "start": 1.15,
+      "end": 1.33,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "what",
+      "start": 1.38,
+      "end": 1.56,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "an",
+      "start": 1.61,
+      "end": 1.79,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "spacing",
+      "start": 1.81,
+      "end": 1.84
+    },
+    {
+      "type": "word",
+      "text": "agent",
+      "start": 1.84,
+      "end": 2.02,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "does",
+      "start": 2.07,
+      "end": 2.25,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "is",
+      "start": 2.3,
+      "end": 2.48,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "completely",
+      "start": 2.53,
+      "end": 2.71,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "spacing",
+      "start": 2.73,
+      "end": 2.76
+    },
+    {
+      "type": "word",
+      "text": "wasted",
+      "start": 2.76,
+      "end": 2.94,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "we",
+      "start": 2.99,
+      "end": 3.17,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "fixed",
+      "start": 3.22,
+      "end": 3.4,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "this",
+      "start": 3.45,
+      "end": 3.63,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "spacing",
+      "start": 3.65,
+      "end": 3.68
+    },
+    {
+      "type": "word",
+      "text": "the",
+      "start": 3.68,
+      "end": 3.86,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "results",
+      "start": 3.91,
+      "end": 4.09,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "are",
+      "start": 4.14,
+      "end": 4.32,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "insane",
+      "start": 4.37,
+      "end": 4.55,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "spacing",
+      "start": 4.57,
+      "end": 4.6
+    },
+    {
+      "type": "word",
+      "text": "watch",
+      "start": 4.6,
+      "end": 4.78,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "until",
+      "start": 4.83,
+      "end": 5.01,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "the",
+      "start": 5.06,
+      "end": 5.24,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "end",
+      "start": 5.29,
+      "end": 5.47,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "spacing",
+      "start": 5.49,
+      "end": 5.52
+    },
+    {
+      "type": "word",
+      "text": "to",
+      "start": 5.52,
+      "end": 5.7,
+      "speaker_id": "speaker_0"
+    },
+    {
+      "type": "word",
+      "text": "see",
+      "start": 5.75,
+      "end": 5.77,
+      "speaker_id": "speaker_0"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "campaign": "dobrik_tiktok_campaign",
+  "qa_timestamp": "2026-05-05T11:27:28Z",
+  "agent": "videoeditor",
+  "mode": "FINAL_QA_RENDER",
+  "clips": [
+    {
+      "file": "clip1_hook_captioned.mp4",
+      "width": 1080,
+      "height": 1920,
+      "resolution_ok": true,
+      "duration_sec": 27.0,
+      "duration_ok": true,
+      "fps": 24.0,
+      "video_codec": "h264",
+      "pix_fmt": "yuv420p",
+      "has_subtitle_stream": false,
+      "status": "PASS"
+    },
+    {
+      "file": "clip2_worse_captioned.mp4",
+      "width": 1080,
+      "height": 1920,
+      "resolution_ok": true,
+      "duration_sec": 15.0,
+      "duration_ok": true,
+      "fps": 24.0,
+      "video_codec": "h264",
+      "pix_fmt": "yuv420p",
+      "has_subtitle_stream": false,
+      "status": "PASS"
+    },
+    {
+      "file": "clip3_bali_captioned.mp4",
+      "width": 1080,
+      "height": 1920,
+      "resolution_ok": true,
+      "duration_sec": 37.6,
+      "duration_ok": true,
+      "fps": 24.0,
+      "video_codec": "h264",
+      "pix_fmt": "yuv420p",
+      "has_subtitle_stream": false,
+      "status": "PASS"
+    },
+    {
+      "file": "clip4_naked_captioned.mp4",
+      "width": 1080,
+      "height": 1920,
+      "resolution_ok": true,
+      "duration_sec": 38.0,
+      "duration_ok": true,
+      "fps": 24.0,
+      "video_codec": "h264",
+      "pix_fmt": "yuv420p",
+      "has_subtitle_stream": false,
+      "status": "PASS"
+    },
+    {
+      "file": "clip5_gift_captioned.mp4",
+      "width": 1080,
+      "height": 1920,
+      "resolution_ok": true,
+      "duration_sec": 59.1,
+      "duration_ok": true,
+      "fps": 24.0,
+      "video_codec": "h264",
+      "pix_fmt": "yuv420p",
+      "has_subtitle_stream": false,
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "total_clips": 5,
+    "pass": 5,
+    "fail": 0,
+    "all_resolution_ok": true,
+    "all_duration_ok": true
+  }
+}

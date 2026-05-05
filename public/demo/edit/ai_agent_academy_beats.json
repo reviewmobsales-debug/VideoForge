@@ -1,0 +1,320 @@
+[
+  {
+    "time": 0.128,
+    "strength": 10.427409172058105,
+    "is_beat": true,
+    "confidence": 0.7163421245927465
+  },
+  {
+    "time": 0.64,
+    "strength": 1.5229945182800293,
+    "is_beat": true,
+    "confidence": 0.1046266729314977
+  },
+  {
+    "time": 1.088,
+    "strength": 2.06185245513916,
+    "is_beat": true,
+    "confidence": 0.1416451338908796
+  },
+  {
+    "time": 1.568,
+    "strength": 2.4317572116851807,
+    "is_beat": true,
+    "confidence": 0.167056849766688
+  },
+  {
+    "time": 2.048,
+    "strength": 1.4072247743606567,
+    "is_beat": true,
+    "confidence": 0.09667352340467299
+  },
+  {
+    "time": 2.496,
+    "strength": 2.190930128097534,
+    "is_beat": true,
+    "confidence": 0.15051251148763303
+  },
+  {
+    "time": 2.944,
+    "strength": 2.225979804992676,
+    "is_beat": true,
+    "confidence": 0.15292035408775223
+  },
+  {
+    "time": 3.392,
+    "strength": 1.6626288890838623,
+    "is_beat": true,
+    "confidence": 0.11421927452574841
+  },
+  {
+    "time": 3.808,
+    "strength": 3.05661940574646,
+    "is_beat": true,
+    "confidence": 0.20998363093405575
+  },
+  {
+    "time": 4.192,
+    "strength": 5.78223180770874,
+    "is_beat": true,
+    "confidence": 0.39722774369698005
+  },
+  {
+    "time": 4.544,
+    "strength": 6.6361775398254395,
+    "is_beat": false,
+    "confidence": 0.4558921050870152
+  },
+  {
+    "time": 4.768,
+    "strength": 3.3964996337890625,
+    "is_beat": true,
+    "confidence": 0.23333272183916026
+  },
+  {
+    "time": 4.992,
+    "strength": 7.99337100982666,
+    "is_beat": false,
+    "confidence": 0.5491285780921487
+  },
+  {
+    "time": 5.216,
+    "strength": 3.832308292388916,
+    "is_beat": true,
+    "confidence": 0.2632719037841722
+  },
+  {
+    "time": 5.696,
+    "strength": 8.646626472473145,
+    "is_beat": true,
+    "confidence": 0.5940059199411631
+  },
+  {
+    "time": 5.92,
+    "strength": 3.4344067573547363,
+    "is_beat": false,
+    "confidence": 0.23593686530223631
+  },
+  {
+    "time": 6.176,
+    "strength": 1.7121975421905518,
+    "is_beat": true,
+    "confidence": 0.11762454171088932
+  },
+  {
+    "time": 6.368,
+    "strength": 5.225635528564453,
+    "is_beat": false,
+    "confidence": 0.35899069415153284
+  },
+  {
+    "time": 6.624,
+    "strength": 3.876373291015625,
+    "is_beat": true,
+    "confidence": 0.266299080930056
+  },
+  {
+    "time": 6.848,
+    "strength": 7.511685848236084,
+    "is_beat": false,
+    "confidence": 0.516037772279789
+  },
+  {
+    "time": 7.072,
+    "strength": 3.382134437561035,
+    "is_beat": true,
+    "confidence": 0.23234586163099352
+  },
+  {
+    "time": 7.296,
+    "strength": 3.291938304901123,
+    "is_beat": false,
+    "confidence": 0.22614956797515554
+  },
+  {
+    "time": 7.52,
+    "strength": 3.655703067779541,
+    "is_beat": true,
+    "confidence": 0.2511394785840696
+  },
+  {
+    "time": 7.872,
+    "strength": 4.867491722106934,
+    "is_beat": false,
+    "confidence": 0.33438693199026764
+  },
+  {
+    "time": 8.032,
+    "strength": 2.2010791301727295,
+    "is_beat": true,
+    "confidence": 0.15120972760230544
+  },
+  {
+    "time": 8.224,
+    "strength": 6.509702682495117,
+    "is_beat": false,
+    "confidence": 0.4472035357106123
+  },
+  {
+    "time": 8.48,
+    "strength": 3.230616807937622,
+    "is_beat": true,
+    "confidence": 0.22193690395735216
+  },
+  {
+    "time": 8.672,
+    "strength": 3.5101733207702637,
+    "is_beat": false,
+    "confidence": 0.24114187645261947
+  },
+  {
+    "time": 8.928,
+    "strength": 5.723742961883545,
+    "is_beat": true,
+    "confidence": 0.39320967713873367
+  },
+  {
+    "time": 9.376,
+    "strength": 8.631877899169922,
+    "is_beat": true,
+    "confidence": 0.5929927224958137
+  },
+  {
+    "time": 9.632,
+    "strength": 3.327761173248291,
+    "is_beat": false,
+    "confidence": 0.22861052727936892
+  },
+  {
+    "time": 9.856,
+    "strength": 1.7229235172271729,
+    "is_beat": true,
+    "confidence": 0.11836139471236652
+  },
+  {
+    "time": 10.08,
+    "strength": 6.819018363952637,
+    "is_beat": false,
+    "confidence": 0.46845290348442903
+  },
+  {
+    "time": 10.304,
+    "strength": 3.940370559692383,
+    "is_beat": true,
+    "confidence": 0.27069556510513637
+  },
+  {
+    "time": 10.56,
+    "strength": 2.4221739768981934,
+    "is_beat": false,
+    "confidence": 0.1663985007315147
+  },
+  {
+    "time": 10.784,
+    "strength": 2.94622802734375,
+    "is_beat": true,
+    "confidence": 0.20239996434565516
+  },
+  {
+    "time": 11.008,
+    "strength": 2.5606846809387207,
+    "is_beat": false,
+    "confidence": 0.1759139086697691
+  },
+  {
+    "time": 11.2,
+    "strength": 8.682182312011719,
+    "is_beat": true,
+    "confidence": 0.5964485349010702
+  },
+  {
+    "time": 11.584,
+    "strength": 4.3986005783081055,
+    "is_beat": true,
+    "confidence": 0.3021750495744863
+  },
+  {
+    "time": 11.936,
+    "strength": 3.245229721069336,
+    "is_beat": false,
+    "confidence": 0.2229407818206388
+  },
+  {
+    "time": 12.16,
+    "strength": 6.249904155731201,
+    "is_beat": true,
+    "confidence": 0.4293558972841059
+  },
+  {
+    "time": 12.384,
+    "strength": 4.666512966156006,
+    "is_beat": false,
+    "confidence": 0.3205800940058445
+  },
+  {
+    "time": 12.608,
+    "strength": 4.704256057739258,
+    "is_beat": true,
+    "confidence": 0.3231729688002752
+  },
+  {
+    "time": 12.864,
+    "strength": 2.941418409347534,
+    "is_beat": false,
+    "confidence": 0.20206955322271572
+  },
+  {
+    "time": 13.056,
+    "strength": 11.422263145446777,
+    "is_beat": true,
+    "confidence": 0.784686599926701
+  },
+  {
+    "time": 13.216,
+    "strength": 2.3676280975341797,
+    "is_beat": false,
+    "confidence": 0.16265130807160635
+  },
+  {
+    "time": 13.44,
+    "strength": 2.429288864135742,
+    "is_beat": true,
+    "confidence": 0.1668872792340061
+  },
+  {
+    "time": 13.664,
+    "strength": 2.438978910446167,
+    "is_beat": true,
+    "confidence": 0.16755296600690192
+  },
+  {
+    "time": 13.984,
+    "strength": 3.094512939453125,
+    "is_beat": true,
+    "confidence": 0.21258684080103768
+  },
+  {
+    "time": 14.24,
+    "strength": 5.245545864105225,
+    "is_beat": false,
+    "confidence": 0.36035849432387573
+  },
+  {
+    "time": 14.464,
+    "strength": 3.838953971862793,
+    "is_beat": true,
+    "confidence": 0.2637284486530967
+  },
+  {
+    "time": 14.688,
+    "strength": 9.27410888671875,
+    "is_beat": false,
+    "confidence": 0.637112704987037
+  },
+  {
+    "time": 14.912,
+    "strength": 4.854257583618164,
+    "is_beat": false,
+    "confidence": 0.33347777318334143
+  }
+]
