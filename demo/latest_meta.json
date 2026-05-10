@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-05T05:39:51.025757+00:00",
+  "generated_at": "2026-05-10T07:55:26.224947+00:00",
   "theme": {
-    "title": "TOP CORNER",
-    "subtitle": "PERFECTION",
+    "title": "GOAL MACHINE",
+    "subtitle": "UNSTOPPABLE",
     "colors": [
-      "#FF2D55",
+      "#FF3B30",
       "#FFFFFF"
     ]
   },
-  "transition": "circlecrop",
-  "source_video": "football_01.mp4",
+  "transition": "pixelize",
+  "source_video": "football_dribble_mixkit.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_top_corner.jpg",
+  "thumbnail": "output/thumbnails/thumb_goal_machine.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
-    "duration_sec": 13.83,
-    "file_size_bytes": 3988897,
-    "bitrate": 2306832
+    "duration_sec": 5.77,
+    "file_size_bytes": 1647452,
+    "bitrate": 2285482
   }
 }
