@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-10T09:00:15.305412+00:00",
+  "generated_at": "2026-05-10T10:00:15.392496+00:00",
   "theme": {
-    "title": "BARCA DNA",
-    "subtitle": "LA MASIA",
+    "title": "SKILL SHOW",
+    "subtitle": "NEXT LEVEL",
     "colors": [
-      "#AF52DE",
-      "#FFD60A"
+      "#FF9500",
+      "#FFFFFF"
     ]
   },
-  "transition": "circlecrop",
+  "transition": "zoomin",
   "source_video": "football_01.mp4",
   "music": "tiktok_base.mp3",
   "output": "demo/output.mp4",
-  "thumbnail": "output/thumbnails/thumb_barca_dna.jpg",
+  "thumbnail": "output/thumbnails/thumb_skill_show.jpg",
   "properties": {
     "width": 1080,
     "height": 1920,
     "fps": "30/1",
     "duration_sec": 13.83,
-    "file_size_bytes": 3979112,
-    "bitrate": 2301173
+    "file_size_bytes": 5094159,
+    "bitrate": 2946019
   }
 }
